@@ -17,6 +17,10 @@
   <useStandardCommands>true</useStandardCommands>
   <editType>InDialog</editType>
   <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Пара связанных слов</value>
+  </recordPresentation>
   <dimensions uuid="fc24c3f6-8173-4968-8a96-fbe06ed97462">
     <name>Слово1</name>
     <synonym>

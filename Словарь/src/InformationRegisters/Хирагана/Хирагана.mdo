@@ -17,6 +17,14 @@
   <useStandardCommands>true</useStandardCommands>
   <editType>InDialog</editType>
   <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Символ хираганы</value>
+  </recordPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Хирагана</value>
+  </listPresentation>
   <resources uuid="4b4c3681-50f0-430a-8d1d-0d6f8e8d5255">
     <name>НаименованиеНаРусском</name>
     <synonym>

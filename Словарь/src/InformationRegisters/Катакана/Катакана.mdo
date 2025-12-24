@@ -50,6 +50,14 @@
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Символ катаканы</value>
+  </recordPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Катакана</value>
+  </listPresentation>
   <resources uuid="31329e71-caa2-40be-a8f9-9598352312b4">
     <name>НаименованиеНаРусском</name>
     <synonym>
