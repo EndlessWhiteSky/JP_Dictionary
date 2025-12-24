@@ -60,7 +60,6 @@
   <dataProcessors>DataProcessor.ЗаполнениеАзбук</dataProcessors>
   <dataProcessors>DataProcessor.ЗаполнениеСлогов</dataProcessors>
   <dataProcessors>DataProcessor.ПоискДублейСловарь</dataProcessors>
-  <dataProcessors>DataProcessor.ХабСловаря</dataProcessors>
   <informationRegisters>InformationRegister.Катакана</informationRegisters>
   <informationRegisters>InformationRegister.Хирагана</informationRegisters>
   <informationRegisters>InformationRegister.СвязанныеСлова</informationRegisters>
