@@ -1,0 +1,695 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8c0fedc0-c7f6-44b1-8ff9-e82b75526b22">
+  <producedTypes>
+    <objectType typeId="34b86085-f8b5-4efa-a785-a346cf9772b8" valueTypeId="5db4622c-4869-42de-8405-70788ee3d308"/>
+    <refType typeId="508a86c7-aa6b-4fd7-a19d-ee02c0701ddb" valueTypeId="97a5a5f2-6f8d-46d4-b629-c951c9125755"/>
+    <selectionType typeId="26411227-c1a5-49d0-b250-94b6b825e6bf" valueTypeId="46bea12f-d951-4707-99f4-24067fa5fe82"/>
+    <listType typeId="767c5028-41cb-4745-a2f8-d660867e60f5" valueTypeId="1de393f8-a7ef-44f3-b7c9-3b0ed79a8be1"/>
+    <managerType typeId="313eabde-48ab-403f-a1c2-b7551d8c89e0" valueTypeId="1c82abb4-9b77-45ea-a5f6-bc059a6b88bd"/>
+  </producedTypes>
+  <name>Моджи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Моджи</value>
+  </synonym>
+  <comment>1 символ</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Моджи.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>PredefinedDataName</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Predefined</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>IsFolder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Owner</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Parent</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <codeLength>3</codeLength>
+  <descriptionLength>3</descriptionLength>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="1503c06b-3977-409c-87f5-400d8d1f85fb">
+      <name>A</name>
+      <description>A</description>
+      <code xsi:type="core:NumberValue">
+        <value>1</value>
+      </code>
+    </items>
+    <items id="199ae27a-cad3-4a38-8eeb-690f66a6d738">
+      <name>Ba</name>
+      <description>Ba</description>
+      <code xsi:type="core:NumberValue">
+        <value>62</value>
+      </code>
+    </items>
+    <items id="02ac3dd5-2418-45d6-95cd-a9e9003ccdca">
+      <name>Be</name>
+      <description>Be</description>
+      <code xsi:type="core:NumberValue">
+        <value>65</value>
+      </code>
+    </items>
+    <items id="352ec0f2-32d3-4318-b79d-9ff90fbaff9a">
+      <name>Bi</name>
+      <description>Bi</description>
+      <code xsi:type="core:NumberValue">
+        <value>63</value>
+      </code>
+    </items>
+    <items id="70c083f9-195b-4f88-85ef-b704d4a15308">
+      <name>Bo</name>
+      <description>Bo</description>
+      <code xsi:type="core:NumberValue">
+        <value>66</value>
+      </code>
+    </items>
+    <items id="c4b30c07-90dd-48f8-89ee-e7841fec9548">
+      <name>Bu</name>
+      <description>Bu</description>
+      <code xsi:type="core:NumberValue">
+        <value>64</value>
+      </code>
+    </items>
+    <items id="b450b4b2-630b-4c27-8809-4be1ebc0c947">
+      <name>Chi</name>
+      <description>Chi</description>
+      <code xsi:type="core:NumberValue">
+        <value>17</value>
+      </code>
+    </items>
+    <items id="0c63ee9c-8d62-4fe0-84f1-24b8f7a57437">
+      <name>Da</name>
+      <description>Da</description>
+      <code xsi:type="core:NumberValue">
+        <value>57</value>
+      </code>
+    </items>
+    <items id="7f08cda1-4a4c-47a0-be8a-be5a2d2fa6ec">
+      <name>De</name>
+      <description>De</description>
+      <code xsi:type="core:NumberValue">
+        <value>60</value>
+      </code>
+    </items>
+    <items id="b1c84276-f67b-4d17-bc6a-12d5c86f6d8e">
+      <name>Do</name>
+      <description>Do</description>
+      <code xsi:type="core:NumberValue">
+        <value>61</value>
+      </code>
+    </items>
+    <items id="9bd00be5-8307-4ca3-bd26-645d42406017">
+      <name>Dzu</name>
+      <description>Dzu</description>
+      <code xsi:type="core:NumberValue">
+        <value>59</value>
+      </code>
+    </items>
+    <items id="916d9945-faa4-419a-ad5f-6dfbba1fb11b">
+      <name>E</name>
+      <description>E</description>
+      <code xsi:type="core:NumberValue">
+        <value>4</value>
+      </code>
+    </items>
+    <items id="94b127ff-6d10-4845-aa34-e5f16381388a">
+      <name>Fu</name>
+      <description>Fu</description>
+      <code xsi:type="core:NumberValue">
+        <value>28</value>
+      </code>
+    </items>
+    <items id="8e48216a-44c4-41b8-86aa-c0461e750e78">
+      <name>Ga</name>
+      <description>Ga</description>
+      <code xsi:type="core:NumberValue">
+        <value>47</value>
+      </code>
+    </items>
+    <items id="12b52dcd-d0d4-42bf-bac5-e011717f5b80">
+      <name>Ge</name>
+      <description>Ge</description>
+      <code xsi:type="core:NumberValue">
+        <value>50</value>
+      </code>
+    </items>
+    <items id="0da148a7-c076-4ac3-b49c-fc3beaf4648f">
+      <name>Gi</name>
+      <description>Gi</description>
+      <code xsi:type="core:NumberValue">
+        <value>48</value>
+      </code>
+    </items>
+    <items id="80c13bbd-c87f-4fe9-9bd4-460c2e00fd41">
+      <name>Go</name>
+      <description>Go</description>
+      <code xsi:type="core:NumberValue">
+        <value>51</value>
+      </code>
+    </items>
+    <items id="b7737aba-ff47-46ca-a1bf-d80cfd7287fd">
+      <name>Gu</name>
+      <description>Gu</description>
+      <code xsi:type="core:NumberValue">
+        <value>49</value>
+      </code>
+    </items>
+    <items id="b6d2089e-e963-4aff-aabe-4dca4e57138e">
+      <name>Ha</name>
+      <description>Ha</description>
+      <code xsi:type="core:NumberValue">
+        <value>26</value>
+      </code>
+    </items>
+    <items id="a3225ff7-2710-423e-89cc-5ddb8e0017be">
+      <name>He</name>
+      <description>He</description>
+      <code xsi:type="core:NumberValue">
+        <value>29</value>
+      </code>
+    </items>
+    <items id="0921d781-90c3-4888-a30c-d1b493e112f8">
+      <name>Hi</name>
+      <description>Hi</description>
+      <code xsi:type="core:NumberValue">
+        <value>27</value>
+      </code>
+    </items>
+    <items id="041a85c8-8bd4-4b27-8238-3aa796adab27">
+      <name>Ho</name>
+      <description>Ho</description>
+      <code xsi:type="core:NumberValue">
+        <value>30</value>
+      </code>
+    </items>
+    <items id="3a8ac68e-3a15-4572-8a51-5cca21638566">
+      <name>I</name>
+      <description>I</description>
+      <code xsi:type="core:NumberValue">
+        <value>2</value>
+      </code>
+    </items>
+    <items id="939ea3ab-4d05-4034-a5f6-77b4c367a09b">
+      <name>Dzi</name>
+      <description>Ji</description>
+      <code xsi:type="core:NumberValue">
+        <value>58</value>
+      </code>
+    </items>
+    <items id="46c52f2b-11c7-40d5-a832-8e8f2cc896c8">
+      <name>Ji</name>
+      <description>Ji</description>
+      <code xsi:type="core:NumberValue">
+        <value>53</value>
+      </code>
+    </items>
+    <items id="8e300f88-539f-4ba9-88bc-aa9383913235">
+      <name>Ka</name>
+      <description>Ka</description>
+      <code xsi:type="core:NumberValue">
+        <value>6</value>
+      </code>
+    </items>
+    <items id="052c8485-5cb2-447a-944a-64cc01095060">
+      <name>Ke</name>
+      <description>Ke</description>
+      <code xsi:type="core:NumberValue">
+        <value>9</value>
+      </code>
+    </items>
+    <items id="62723d8e-adef-46fb-986e-55b714a5bf56">
+      <name>Ki</name>
+      <description>Ki</description>
+      <code xsi:type="core:NumberValue">
+        <value>7</value>
+      </code>
+    </items>
+    <items id="04996156-84b5-4d48-bcf4-1f4223f5c7da">
+      <name>Ko</name>
+      <description>Ko</description>
+      <code xsi:type="core:NumberValue">
+        <value>10</value>
+      </code>
+    </items>
+    <items id="d9b983c8-2e4c-4f0c-bf6e-908eaf88ff58">
+      <name>Ku</name>
+      <description>Ku</description>
+      <code xsi:type="core:NumberValue">
+        <value>8</value>
+      </code>
+    </items>
+    <items id="0f61c7ab-a082-4f24-9868-372dc5683c72">
+      <name>Ma</name>
+      <description>Ma</description>
+      <code xsi:type="core:NumberValue">
+        <value>31</value>
+      </code>
+    </items>
+    <items id="c057fc0a-70e6-478a-a7ef-575f9121f022">
+      <name>Me</name>
+      <description>Me</description>
+      <code xsi:type="core:NumberValue">
+        <value>34</value>
+      </code>
+    </items>
+    <items id="e4da2022-3797-4912-975b-ab1d41420701">
+      <name>Mi</name>
+      <description>Mi</description>
+      <code xsi:type="core:NumberValue">
+        <value>32</value>
+      </code>
+    </items>
+    <items id="d509d4ff-2ca1-4c05-bd49-1d8c2badb403">
+      <name>Mo</name>
+      <description>Mo</description>
+      <code xsi:type="core:NumberValue">
+        <value>35</value>
+      </code>
+    </items>
+    <items id="736eedd0-0517-4459-819b-f96e9c9266c2">
+      <name>Mu</name>
+      <description>Mu</description>
+      <code xsi:type="core:NumberValue">
+        <value>33</value>
+      </code>
+    </items>
+    <items id="50657948-5d85-402d-ae98-3e55bb2fa1aa">
+      <name>N</name>
+      <description>N</description>
+      <code xsi:type="core:NumberValue">
+        <value>46</value>
+      </code>
+    </items>
+    <items id="9a6f9afb-713e-423a-a71d-cefd24d959cc">
+      <name>Na</name>
+      <description>Na</description>
+      <code xsi:type="core:NumberValue">
+        <value>21</value>
+      </code>
+    </items>
+    <items id="b24d3b8b-b264-4f7c-a9b0-14123f862d6a">
+      <name>Ne</name>
+      <description>Ne</description>
+      <code xsi:type="core:NumberValue">
+        <value>24</value>
+      </code>
+    </items>
+    <items id="d0d6069a-aad6-419c-9fed-6221c8ab05fe">
+      <name>Ni</name>
+      <description>Ni</description>
+      <code xsi:type="core:NumberValue">
+        <value>22</value>
+      </code>
+    </items>
+    <items id="f8ad31e9-9462-4b9c-9f6f-edbfc7c8dbfd">
+      <name>No</name>
+      <description>No</description>
+      <code xsi:type="core:NumberValue">
+        <value>25</value>
+      </code>
+    </items>
+    <items id="029e65b1-4673-452b-a04c-c9289fc2ca83">
+      <name>Nu</name>
+      <description>Nu</description>
+      <code xsi:type="core:NumberValue">
+        <value>23</value>
+      </code>
+    </items>
+    <items id="f786ed90-19b2-4771-a3ef-8499cf990706">
+      <name>O</name>
+      <description>O</description>
+      <code xsi:type="core:NumberValue">
+        <value>5</value>
+      </code>
+    </items>
+    <items id="23d11aaa-cbfe-4171-a39a-6dcf9c3bfb44">
+      <name>Pa</name>
+      <description>Pa</description>
+      <code xsi:type="core:NumberValue">
+        <value>67</value>
+      </code>
+    </items>
+    <items id="6765cd1e-d8f4-4212-9bc8-6513d383e2de">
+      <name>Pe</name>
+      <description>Pe</description>
+      <code xsi:type="core:NumberValue">
+        <value>70</value>
+      </code>
+    </items>
+    <items id="0c09b72e-6db2-4c11-a156-b698f1350c23">
+      <name>Pi</name>
+      <description>Pi</description>
+      <code xsi:type="core:NumberValue">
+        <value>68</value>
+      </code>
+    </items>
+    <items id="1deae170-6e74-42b0-84fd-d92473700ff8">
+      <name>Po</name>
+      <description>Po</description>
+      <code xsi:type="core:NumberValue">
+        <value>71</value>
+      </code>
+    </items>
+    <items id="532ffb90-f2f2-43b0-bb2f-b3633f830b8f">
+      <name>Pu</name>
+      <description>Pu</description>
+      <code xsi:type="core:NumberValue">
+        <value>69</value>
+      </code>
+    </items>
+    <items id="9b463f0d-653a-4171-a5a6-03c4d5f01a5e">
+      <name>Ra</name>
+      <description>Ra</description>
+      <code xsi:type="core:NumberValue">
+        <value>39</value>
+      </code>
+    </items>
+    <items id="aea6da57-f1de-49b5-beff-f1ef582573ee">
+      <name>Re</name>
+      <description>Re</description>
+      <code xsi:type="core:NumberValue">
+        <value>42</value>
+      </code>
+    </items>
+    <items id="5070c334-ae20-40d6-9743-4a3a0a5940ed">
+      <name>Ri</name>
+      <description>Ri</description>
+      <code xsi:type="core:NumberValue">
+        <value>40</value>
+      </code>
+    </items>
+    <items id="4edce35f-52d8-46de-9d27-201a41efdefe">
+      <name>Ro</name>
+      <description>Ro</description>
+      <code xsi:type="core:NumberValue">
+        <value>43</value>
+      </code>
+    </items>
+    <items id="89d6350d-29f3-4c82-b063-0c306e5004dd">
+      <name>Ru</name>
+      <description>Ru</description>
+      <code xsi:type="core:NumberValue">
+        <value>41</value>
+      </code>
+    </items>
+    <items id="6f60faef-54ec-4711-9f76-802951227d2f">
+      <name>Sa</name>
+      <description>Sa</description>
+      <code xsi:type="core:NumberValue">
+        <value>11</value>
+      </code>
+    </items>
+    <items id="a7bb9f60-e696-4484-a622-7ec713a3107f">
+      <name>Se</name>
+      <description>Se</description>
+      <code xsi:type="core:NumberValue">
+        <value>14</value>
+      </code>
+    </items>
+    <items id="0902a7cb-3a1c-45a3-9265-9df1018708a0">
+      <name>Shi</name>
+      <description>Shi</description>
+      <code xsi:type="core:NumberValue">
+        <value>12</value>
+      </code>
+    </items>
+    <items id="b4ea70d9-2a76-4b76-91a6-62941eb6a173">
+      <name>So</name>
+      <description>So</description>
+      <code xsi:type="core:NumberValue">
+        <value>15</value>
+      </code>
+    </items>
+    <items id="0b92e39e-101c-4e12-83a5-f23df7f84542">
+      <name>Su</name>
+      <description>Su</description>
+      <code xsi:type="core:NumberValue">
+        <value>13</value>
+      </code>
+    </items>
+    <items id="6ce99da7-2c41-4e7f-9c7e-779c0ea7a23e">
+      <name>Ta</name>
+      <description>Ta</description>
+      <code xsi:type="core:NumberValue">
+        <value>16</value>
+      </code>
+    </items>
+    <items id="3c74c340-433f-4965-b509-537edd038456">
+      <name>Te</name>
+      <description>Te</description>
+      <code xsi:type="core:NumberValue">
+        <value>19</value>
+      </code>
+    </items>
+    <items id="51faa5b9-7f91-42c6-9863-026fd401940c">
+      <name>To</name>
+      <description>To</description>
+      <code xsi:type="core:NumberValue">
+        <value>20</value>
+      </code>
+    </items>
+    <items id="1dbe11e8-317e-4067-9ba2-b82e9133d575">
+      <name>Tsu</name>
+      <description>Tsu</description>
+      <code xsi:type="core:NumberValue">
+        <value>18</value>
+      </code>
+    </items>
+    <items id="faa97f04-e94b-4f2b-8bd8-e5944593f8b6">
+      <name>U</name>
+      <description>U</description>
+      <code xsi:type="core:NumberValue">
+        <value>3</value>
+      </code>
+    </items>
+    <items id="80a7c1d9-9ee7-427f-869e-fd41c7cc735a">
+      <name>Wa</name>
+      <description>Wa</description>
+      <code xsi:type="core:NumberValue">
+        <value>44</value>
+      </code>
+    </items>
+    <items id="428e5386-fb54-4b2e-b93c-3450455141d8">
+      <name>Wo</name>
+      <description>Wo</description>
+      <code xsi:type="core:NumberValue">
+        <value>45</value>
+      </code>
+    </items>
+    <items id="75be50e1-0854-40ac-b714-b67f23ea71a5">
+      <name>Ya</name>
+      <description>Ya</description>
+      <code xsi:type="core:NumberValue">
+        <value>36</value>
+      </code>
+    </items>
+    <items id="6d8712a6-dce9-4759-8e2c-0a991b28ffad">
+      <name>Yo</name>
+      <description>Yo</description>
+      <code xsi:type="core:NumberValue">
+        <value>38</value>
+      </code>
+    </items>
+    <items id="a66eeb27-ba6a-4918-b5a3-79768565a05a">
+      <name>Yu</name>
+      <description>Yu</description>
+      <code xsi:type="core:NumberValue">
+        <value>37</value>
+      </code>
+    </items>
+    <items id="d7b24452-3c2c-4cb3-97ba-7a520808ad03">
+      <name>Za</name>
+      <description>Za</description>
+      <code xsi:type="core:NumberValue">
+        <value>52</value>
+      </code>
+    </items>
+    <items id="7b65f2e5-a0c4-4bf6-bcce-3da0a239846b">
+      <name>Ze</name>
+      <description>Ze</description>
+      <code xsi:type="core:NumberValue">
+        <value>55</value>
+      </code>
+    </items>
+    <items id="fff1bbef-2e74-4bcf-baf6-114d1b8ba25d">
+      <name>Zo</name>
+      <description>Zo</description>
+      <code xsi:type="core:NumberValue">
+        <value>56</value>
+      </code>
+    </items>
+    <items id="929d2482-df4e-447e-8d43-af88d9e9ace4">
+      <name>Zu</name>
+      <description>Zu</description>
+      <code xsi:type="core:NumberValue">
+        <value>54</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="b1beb8f3-4db0-453c-a6e4-14a032db2b8a">
+    <name>НаименованиеНаРусском</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наименование на русском</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>4</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="2379af29-8a4b-4d4a-855b-90ac634cfc6f">
+    <name>Юникод</name>
+    <synonym>
+      <key>ru</key>
+      <value>Юникод</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>12</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="50d8ef1b-53d9-4f69-86c7-a8779efe836a">
+    <name>ЮникодПредставление</name>
+    <synonym>
+      <key>ru</key>
+      <value>Юникод представление</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>4</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="299b3760-87fe-4b4f-9f9d-d179911e76a8">
+    <name>ЭтоКатакана</name>
+    <synonym>
+      <key>ru</key>
+      <value>Это катакана</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="07a5aa5b-174d-4223-9ddd-1695c86e3304">
+    <name>ЭтоМиниСимвол</name>
+    <synonym>
+      <key>ru</key>
+      <value>Это мини символ</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

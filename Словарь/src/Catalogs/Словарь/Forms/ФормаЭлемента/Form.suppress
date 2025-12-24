@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suppress:SuppressGenericObject xmlns:suppress="http://g5.1c.ru/v8/dt/check/suppress/model" fqn="Catalog.Словарь.Form.ФормаЭлемента.Form">
+  <containments fqn="commands:ПредложениеКанджи10">
+    <suppressions key="com.e1c.v8codestyle.form:form-commands-single-action-handler" value="true"/>
+  </containments>
+</suppress:SuppressGenericObject>

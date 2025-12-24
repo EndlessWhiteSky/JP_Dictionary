@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8a1ea2c9-33a3-4958-9472-10a556fe64bb">
+  <producedTypes>
+    <objectType typeId="e72d771a-99b5-4c63-a3d9-dcfe63ada04c" valueTypeId="b15a94dc-11a3-4047-ac81-fd6f5bc78a3e"/>
+    <managerType typeId="0e3d0d09-6206-4f11-8640-f9b6a517072e" valueTypeId="e14162cc-025e-47c3-8c6a-556fd66c38fb"/>
+  </producedTypes>
+  <name>ДозаполнениеМоджи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Дозаполнение моджи</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ДозаполнениеМоджи.Form.Форма</defaultForm>
+  <forms uuid="d6133ff9-2f6a-4e4a-acff-444952ec7090">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="49990739-7817-4ea7-8c55-8c73b0bf462c">
+  <producedTypes>
+    <refType typeId="402dda4f-d826-4e9f-a732-1f958091fa9d" valueTypeId="09254d6d-39e6-4e75-b345-017544d0a171"/>
+    <listType typeId="25cf3b5f-fd5a-456f-bbce-4c043a3b0ca0" valueTypeId="2ea8e945-2107-4bdb-87c0-1238fc6a144e"/>
+    <managerType typeId="6674e806-5b4f-445d-9071-236d96d577e2" valueTypeId="b0b4ca40-5074-481f-ae36-0571274209ac"/>
+  </producedTypes>
+  <name>ВидыКаны</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды каны</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="2fdb07c9-efc9-4af7-9301-9d718b6c00ea">
+    <name>Хирагана</name>
+    <synonym>
+      <key>ru</key>
+      <value>Хирагана</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a2e0b533-d6f6-47aa-9e5f-f1fd374d2f45">
+    <name>Катакана</name>
+    <synonym>
+      <key>ru</key>
+      <value>Катакана</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

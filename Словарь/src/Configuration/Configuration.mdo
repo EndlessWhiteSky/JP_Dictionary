@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="10d252ee-0733-4424-9ea2-7a7cdf64d8ca">
+  <name>Конфигурация</name>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="c5ecfd9e-651b-4dbf-b789-bdefaa9bc9f7"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="9b32916f-b2c4-4b7b-b178-bc7749c70274"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="7380d165-3f21-4172-bd71-7fe7cbbfca07"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="f7498de3-af07-4e45-955b-6ca123d4ae56"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="03e06a45-38f8-48e3-9de3-3649e1b0ab66"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="d6330075-9394-4403-95bf-a2266dc7ce10"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="2882d568-e0af-42e9-b29b-7c29f9a28c0a"/>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <usedMobileApplicationFunctionalities>
+    <functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>OSBackup</functionality>
+      <use>true</use>
+    </functionality>
+  </usedMobileApplicationFunctionalities>
+  <clientApplicationTheme>Dark</clientApplicationTheme>
+  <mainClientApplicationWindowInterfaceVariant>NavigationTop</mainClientApplicationWindowInterfaceVariant>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <interfaceCompatibilityMode>Version8_5</interfaceCompatibilityMode>
+  <version85InterfaceMigrationMode>Use</version85InterfaceMigrationMode>
+  <compatibilityMode>8.5.1</compatibilityMode>
+  <languages uuid="ce5c2ed5-4057-41b4-8b25-a94e2856e8d4">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.Словарь</subsystems>
+  <subsystems>Subsystem.НСИ</subsystems>
+  <subsystems>Subsystem.Сервис</subsystems>
+  <commonModules>CommonModule.ПростыеТипыКлиентСервер</commonModules>
+  <commonModules>CommonModule.АзбукаВызовСервера</commonModules>
+  <commonModules>CommonModule.АзбукаКлиентСервер</commonModules>
+  <commonModules>CommonModule.АзбукаПовтИсп</commonModules>
+  <commonModules>CommonModule.РаботаСоСтрокамиКлиентСервер</commonModules>
+  <commonModules>CommonModule.РаботаСоСтрокамиВызовСервера</commonModules>
+  <catalogs>Catalog.Канджи</catalogs>
+  <catalogs>Catalog.Моджи</catalogs>
+  <catalogs>Catalog.Словарь</catalogs>
+  <catalogs>Catalog.Слоги</catalogs>
+  <catalogs>Catalog.ЧтенияКанджи</catalogs>
+  <enums>Enum.ВидыКаны</enums>
+  <enums>Enum.ВидыСлов</enums>
+  <enums>Enum.ВидыЧтенийКанджи</enums>
+  <reports>Report.ПоискКанджиПоЧтению</reports>
+  <dataProcessors>DataProcessor.ВыгрузкаКанджи</dataProcessors>
+  <dataProcessors>DataProcessor.ДозаполнениеМоджи</dataProcessors>
+  <dataProcessors>DataProcessor.ЗаполнениеАзбук</dataProcessors>
+  <dataProcessors>DataProcessor.ЗаполнениеСлогов</dataProcessors>
+  <dataProcessors>DataProcessor.ПоискДублейСловарь</dataProcessors>
+  <dataProcessors>DataProcessor.ХабСловаря</dataProcessors>
+  <informationRegisters>InformationRegister.Катакана</informationRegisters>
+  <informationRegisters>InformationRegister.Хирагана</informationRegisters>
+  <informationRegisters>InformationRegister.СвязанныеСлова</informationRegisters>
+</mdclass:Configuration>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8107c805-c354-402b-87a9-d580740dc89f">
+  <producedTypes>
+    <selectionType typeId="757ed48f-72b0-4950-8577-3882d5cc86fa" valueTypeId="81e8a004-801c-4d14-a026-0dfdf3533eeb"/>
+    <listType typeId="d0d253dc-e30c-46cb-afd7-1c053d89ef5f" valueTypeId="edffa1c1-99c7-4c90-bb03-be204b898457"/>
+    <managerType typeId="533a5308-0d3d-48cf-8fa8-38d0e9944a59" valueTypeId="05825ca9-4c5c-4192-95ea-58a41701888b"/>
+    <recordSetType typeId="5d4713c9-928d-4c87-882a-045ae179af49" valueTypeId="87dee24a-c7b6-4bba-b622-c8f461a442e3"/>
+    <recordKeyType typeId="82601427-2be7-4aed-bb51-682e49b37e6c" valueTypeId="46555885-333c-4f65-bf0b-49bf4aa8e3c9"/>
+    <recordType typeId="5e0cd66a-174d-4864-bed8-ebc90ae4d95b" valueTypeId="91cf7d5e-7044-4e0a-a617-0d0aee7c4b37"/>
+    <recordManagerType typeId="b41638bc-5968-46e3-b7b8-a98b60e842d2" valueTypeId="240c62a9-d80a-4cc6-9835-6f6354632cce"/>
+  </producedTypes>
+  <name>Катакана</name>
+  <synonym>
+    <key>ru</key>
+    <value>Катакана</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="31329e71-caa2-40be-a8f9-9598352312b4">
+    <name>НаименованиеНаРусском</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наименование на русском</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>15</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="61ff0d43-9274-404a-bc1b-ec8c62a40400">
+    <name>Юникод</name>
+    <synonym>
+      <key>ru</key>
+      <value>Юникод</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>12</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="749d1020-ccc8-4f30-a9b2-7c8087a61e18">
+    <name>ЮникодПредставление</name>
+    <synonym>
+      <key>ru</key>
+      <value>Юникод представление</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>4</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <dimensions uuid="ad1d672c-2cfc-4102-8c6a-0994bd6eda8f">
+    <name>Моджи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Моджи</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Моджи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

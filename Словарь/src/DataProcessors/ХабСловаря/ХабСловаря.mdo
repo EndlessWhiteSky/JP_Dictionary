@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7124e8db-4abf-4283-ac87-8e73e4f78a8d">
+  <producedTypes>
+    <objectType typeId="acd2752d-fd77-4125-aaa5-ac4cd624dff7" valueTypeId="64ed0ae2-a29e-4d5b-a91b-1a501a43a972"/>
+    <managerType typeId="61e6ba68-0f8f-4903-8382-424bb2358f9e" valueTypeId="5ba1e554-cece-420a-a31d-a56892375b6e"/>
+  </producedTypes>
+  <name>ХабСловаря</name>
+  <synonym>
+    <key>ru</key>
+    <value>Хаб</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ХабСловаря.Form.ФормаХаб</defaultForm>
+  <forms uuid="39a17703-8806-4a3e-acd2-abd7720ff8f9">
+    <name>ФормаХаб</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма хаб</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

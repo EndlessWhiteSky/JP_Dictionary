@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1334ed9b-46e2-4832-8929-37e4c626f70b">
+  <producedTypes>
+    <refType typeId="d6048e29-605a-47fc-8b98-7a92411b8ebb" valueTypeId="43fc2979-6141-49cd-b32c-60b6ec76979c"/>
+    <listType typeId="f50c1798-e5fb-4ed8-b0d4-ccc0e71af209" valueTypeId="b0dfc619-37e2-4372-82fb-d6542634b835"/>
+    <managerType typeId="71c1e606-f796-4524-90cf-c4fe749e93fe" valueTypeId="4c22cfdd-15a8-4fc5-814f-dea88e747986"/>
+  </producedTypes>
+  <name>ВидыСлов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды слов</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="645c850a-324d-418e-bcba-e55698a9ad2f">
+    <name>Японское</name>
+    <synonym>
+      <key>ru</key>
+      <value>Японское</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="18dd88fb-9936-4630-a6d3-242e87c5297b">
+    <name>Китайское</name>
+    <synonym>
+      <key>ru</key>
+      <value>Китайское</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4836933b-b6b2-47fe-9b3f-6436ffda91a6">
+    <name>Заимствованное</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заимствованное</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="cd653af2-eab0-418b-b000-31dd2be7af99">
+    <name>Смешанное</name>
+    <synonym>
+      <key>ru</key>
+      <value>Смешанное</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

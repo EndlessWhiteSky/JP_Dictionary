@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f9932f45-8cb4-41d7-9546-730577b34eea">
+  <producedTypes>
+    <objectType typeId="f3eb6951-c6ec-4f03-b61e-ebec6fe7f16e" valueTypeId="ae9d3b9f-5525-4c0a-a210-8401ac4da608"/>
+    <managerType typeId="92456053-fbad-4b8e-89ab-7177a49c1425" valueTypeId="178e72bd-29ea-436c-9190-e0bf0e92a459"/>
+  </producedTypes>
+  <name>ВыгрузкаКанджи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выгрузка канджи</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ВыгрузкаКанджи.Form.Форма</defaultForm>
+  <forms uuid="b9c9ccf4-6110-45e1-8d9f-c33afb4d149d">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

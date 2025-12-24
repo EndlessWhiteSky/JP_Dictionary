@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="389fc3fc-6735-4f3b-9349-0ac680b93695">
+  <producedTypes>
+    <selectionType typeId="986e5b72-e478-43e9-a703-72d2ccb06ef9" valueTypeId="f6f51ee4-e5fb-4d87-bc66-5697fad0b798"/>
+    <listType typeId="31c38fcb-689d-42da-b6fb-a7b3a214e2f4" valueTypeId="23d72075-2b10-453f-baf4-b6a1a8f085f9"/>
+    <managerType typeId="63dd5975-c7ba-40a2-9a62-106fcc632d86" valueTypeId="1e4dca76-d400-4437-b314-7f4e07999242"/>
+    <recordSetType typeId="ef22fb33-3c8e-445a-868d-c4ec74a6d596" valueTypeId="e6a12532-adce-4bf8-9630-24db774c4109"/>
+    <recordKeyType typeId="c4aa3a0f-20c2-4732-aaa0-abcdd906cf3b" valueTypeId="07e56b84-a308-46f6-a855-1c35d9434066"/>
+    <recordType typeId="db456c86-1b70-4480-a0c8-628119972d9d" valueTypeId="41b6144c-3a80-4460-ba2a-7330cc66a974"/>
+    <recordManagerType typeId="1c2172f2-cf5d-431e-91cd-dff859cb8ab6" valueTypeId="6b443d1c-6182-4183-8312-77520e012e13"/>
+  </producedTypes>
+  <name>СвязанныеСлова</name>
+  <synonym>
+    <key>ru</key>
+    <value>Связанные слова</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="fc24c3f6-8173-4968-8a96-fbe06ed97462">
+    <name>Слово1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Слово1</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Словарь</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="5bd4f865-958e-4172-a180-aed217f3b4ce">
+    <name>Слово2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Слово2</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Словарь</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

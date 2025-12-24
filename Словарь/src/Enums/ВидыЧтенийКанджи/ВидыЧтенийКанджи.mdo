@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="68667df5-3bb1-4bc2-b536-90c67d8b52da">
+  <producedTypes>
+    <refType typeId="89ebe852-5400-4c76-94f9-8f9683957b10" valueTypeId="b81acf1d-f6e6-4d6d-9e4e-9ccad3a1141c"/>
+    <listType typeId="e9baa006-88da-4402-a1a4-748b18731a9f" valueTypeId="cf90f340-4ff3-4e84-bc72-3b49b88266ee"/>
+    <managerType typeId="7ea8027d-c456-4533-8329-704cbfe65964" valueTypeId="7adc27ec-6d21-44db-83b9-13d57706da75"/>
+  </producedTypes>
+  <name>ВидыЧтенийКанджи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды чтений канджи</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="d9416a22-c78f-413b-829c-425d4eb20a25">
+    <name>Онное</name>
+    <synonym>
+      <key>ru</key>
+      <value>Онное</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7d06ae13-a701-4813-90c8-5a08cf475f22">
+    <name>Кунное</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кунное</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

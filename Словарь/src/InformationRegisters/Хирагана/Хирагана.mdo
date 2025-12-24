@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8a5a851b-9b34-4000-abc0-8d355cfcf3e8">
+  <producedTypes>
+    <selectionType typeId="45491255-a9b9-4a4c-b40c-4daa13d1688e" valueTypeId="08ba3379-fa5e-4bf2-b694-c5984de64928"/>
+    <listType typeId="daf4327a-4693-4ef3-a984-776fc7b6756c" valueTypeId="331ed49f-0d46-4544-ab6c-4c6d0d810a86"/>
+    <managerType typeId="fcf5163d-504c-48da-ad04-950f13e88102" valueTypeId="a989a4ed-428c-4176-80e2-9c1701ea252a"/>
+    <recordSetType typeId="f4408443-1b9c-444f-85b0-f5103fef1486" valueTypeId="26774396-6e27-44c9-9de6-c7154adae1c3"/>
+    <recordKeyType typeId="09a5b44d-2da8-415b-8201-58cbb713ceea" valueTypeId="9f1aebc7-d6c0-456a-808a-fccb40cc4b3e"/>
+    <recordType typeId="b6f75e60-d4c2-4cf8-8af0-49bf117822b8" valueTypeId="31962c6e-0d54-4c8a-bba6-7f92243232fc"/>
+    <recordManagerType typeId="3fc41f58-a6f0-4c04-a9b7-7749b2e16fc3" valueTypeId="58320c33-9dce-4835-ad94-9ad9505cd8d9"/>
+  </producedTypes>
+  <name>Хирагана</name>
+  <synonym>
+    <key>ru</key>
+    <value>Хирагана</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="4b4c3681-50f0-430a-8d1d-0d6f8e8d5255">
+    <name>НаименованиеНаРусском</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наименование на русском</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>15</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="ffbb86a0-0540-4b23-947a-94175fba1568">
+    <name>Юникод</name>
+    <synonym>
+      <key>ru</key>
+      <value>Юникод</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>12</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="a46eb101-3e6f-4db5-bd70-be51cc6f4caa">
+    <name>ЮникодПредставление</name>
+    <synonym>
+      <key>ru</key>
+      <value>Юникод представление</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>4</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <dimensions uuid="13514875-2028-4ee1-97af-eb5684e0c548">
+    <name>Моджи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Моджи</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Моджи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>
