@@ -7,7 +7,7 @@
   <name>ДозаполнениеМоджи</name>
   <synonym>
     <key>ru</key>
-    <value>Дозаполнение моджи</value>
+    <value>Дозаполнение реквизитов элементов Хираганы и Катаканы</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <defaultForm>DataProcessor.ДозаполнениеМоджи.Form.Форма</defaultForm>
