@@ -95,6 +95,14 @@
   <createOnInput>Use</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>
   <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Моджи</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Моджи</value>
+  </listPresentation>
   <levelCount>2</levelCount>
   <codeLength>3</codeLength>
   <descriptionLength>3</descriptionLength>
