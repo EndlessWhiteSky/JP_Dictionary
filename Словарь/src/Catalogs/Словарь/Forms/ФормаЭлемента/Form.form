@@ -2196,9 +2196,5 @@
       <event>AfterWriteAtServer</event>
       <name>ПослеЗаписиНаСервере</name>
     </handlers>
-    <handlers>
-      <event>BeforeWriteAtServer</event>
-      <name>ПередЗаписьюНаСервере</name>
-    </handlers>
   </extInfo>
 </form:Form>
