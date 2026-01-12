@@ -1531,6 +1531,32 @@
         <autoCommandBar>
           <name>СвязанныеСловаКоманднаяПанель</name>
           <id>100</id>
+          <items xsi:type="form:Button">
+            <name>СвязанныеСловаСвязанныеСловаОбновить</name>
+            <id>192</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <extendedTooltip>
+              <name>СвязанныеСловаСвязанныеСловаОбновитьРасширеннаяПодсказка</name>
+              <id>193</id>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <commandName>Form.Command.СвязанныеСловаОбновить</commandName>
+            <buttonImportance>Normal</buttonImportance>
+            <representation>Auto</representation>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <placementArea>UserCmds</placementArea>
+            <representationInContextMenu>Auto</representationInContextMenu>
+          </items>
           <horizontalAlign>Left</horizontalAlign>
           <autoFill>true</autoFill>
         </autoCommandBar>
@@ -2180,6 +2206,28 @@
         <name>ПредложениеКанджи</name>
       </handler>
     </action>
+    <currentRowUse>Auto</currentRowUse>
+    <selectedRowsUse>Auto</selectedRowsUse>
+  </formCommands>
+  <formCommands>
+    <name>СвязанныеСловаОбновить</name>
+    <title>
+      <key>ru</key>
+      <value>Связанные слова обновить</value>
+    </title>
+    <id>16</id>
+    <use>
+      <common>true</common>
+    </use>
+    <picture xsi:type="core:PictureRef">
+      <picture>StdPicture.Refresh</picture>
+    </picture>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>СвязанныеСловаОбновить</name>
+      </handler>
+    </action>
+    <representation>Picture</representation>
     <currentRowUse>Auto</currentRowUse>
     <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
