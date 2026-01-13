@@ -341,4 +341,13 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
+  <forms uuid="7ab60d75-2308-4320-915b-9b13225de386">
+    <name>ФормаНастроек</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройки подсказок</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:Catalog>

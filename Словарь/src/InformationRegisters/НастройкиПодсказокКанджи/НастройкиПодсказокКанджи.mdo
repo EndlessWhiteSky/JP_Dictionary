@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="122dd1a7-58f1-49a0-943b-fd66414042ef">
+  <producedTypes>
+    <selectionType typeId="c0f0cdf4-3439-4ec1-a1f9-052f483a198d" valueTypeId="5311c6f2-b073-4bf8-8a78-6f6d373015cb"/>
+    <listType typeId="58840c07-5d53-4c24-af11-dbdbadf20540" valueTypeId="3a55921c-6543-40a8-abd3-3afe01623521"/>
+    <managerType typeId="a79841d0-22dd-4a9d-b31e-49388a3761c6" valueTypeId="09c12334-041d-48f2-b668-d259a34e656f"/>
+    <recordSetType typeId="7b9b9d26-0f5f-4dad-b458-186f77280e71" valueTypeId="5c8090c2-dcb0-43bb-bac6-1b0fb125b5c1"/>
+    <recordKeyType typeId="42428987-5740-45d0-a854-60e87db87dac" valueTypeId="26eeb394-b91a-4ca2-99c2-d505518927f3"/>
+    <recordType typeId="a720286a-4e7b-45f0-92e0-f90a485c00ed" valueTypeId="48caa52b-7b58-4e8a-8dbf-dfed9e47a6f2"/>
+    <recordManagerType typeId="6debe57b-abf2-402e-8e01-170173ab4bcc" valueTypeId="44b4fd32-6b08-49dd-94e2-b63e182d68f4"/>
+  </producedTypes>
+  <name>НастройкиПодсказокКанджи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки подсказок канджи</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Настройки подсказок канджи</value>
+  </recordPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Настройки подсказок канджи</value>
+  </listPresentation>
+  <resources uuid="db260628-43cd-40c4-bd04-b5fef393fafe">
+    <name>КоличествоРядовПодсказок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество рядов подсказок</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>2</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:StringValue">
+      <value>1</value>
+    </minValue>
+    <maxValue xsi:type="core:StringValue">
+      <value>10</value>
+    </maxValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="aafa64b0-f83a-4a1f-ba25-3c82a53e0f25">
+    <name>КоличествоСтолбцовПодсказок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество столбцов подсказок</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>2</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:StringValue">
+      <value>1</value>
+    </minValue>
+    <maxValue xsi:type="core:StringValue">
+      <value>10</value>
+    </maxValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+</mdclass:InformationRegister>
