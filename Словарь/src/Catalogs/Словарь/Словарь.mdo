@@ -261,68 +261,6 @@
     </attributes>
     <lineNumberLength>9</lineNumberLength>
   </tabularSections>
-  <tabularSections uuid="3792da59-3186-4189-96df-3a72c0f94c8b">
-    <producedTypes>
-      <objectType typeId="4c4497d1-f222-4536-a30d-1b69d4c8f041" valueTypeId="836d7398-b6d0-46aa-a61a-9840b5a445be"/>
-      <rowType typeId="4bd370e4-c438-41fc-bc0d-e8901193b0c3" valueTypeId="4e37f6a6-1b19-4cb3-b3b7-017800b937a9"/>
-    </producedTypes>
-    <name>СоставНовый</name>
-    <synonym>
-      <key>ru</key>
-      <value>Состав новый</value>
-    </synonym>
-    <standardAttributes>
-      <dataHistory>Use</dataHistory>
-      <name>LineNumber</name>
-      <fillValue xsi:type="core:UndefinedValue"/>
-      <fullTextSearch>Use</fullTextSearch>
-      <minValue xsi:type="core:UndefinedValue"/>
-      <maxValue xsi:type="core:UndefinedValue"/>
-    </standardAttributes>
-    <attributes uuid="b7c11635-b096-4d6e-a6cb-4bbf7abd0e50">
-      <name>Моджи</name>
-      <synonym>
-        <key>ru</key>
-        <value>Моджи</value>
-      </synonym>
-      <type>
-        <types>CatalogRef.Моджи</types>
-      </type>
-      <minValue xsi:type="core:UndefinedValue"/>
-      <maxValue xsi:type="core:UndefinedValue"/>
-      <dataHistory>Use</dataHistory>
-      <fullTextSearch>Use</fullTextSearch>
-    </attributes>
-    <attributes uuid="c803c8dd-6233-40f4-b109-fab7f28e1653">
-      <name>Запись</name>
-      <synonym>
-        <key>ru</key>
-        <value>Запись</value>
-      </synonym>
-      <type>
-        <types>EnumRef.ВидыКаны</types>
-      </type>
-      <minValue xsi:type="core:UndefinedValue"/>
-      <maxValue xsi:type="core:UndefinedValue"/>
-      <dataHistory>Use</dataHistory>
-      <fullTextSearch>Use</fullTextSearch>
-    </attributes>
-    <attributes uuid="f39235a2-49bc-4b56-a528-6c1f4e5a58dc">
-      <name>Канджи</name>
-      <synonym>
-        <key>ru</key>
-        <value>Канджи</value>
-      </synonym>
-      <type>
-        <types>CatalogRef.Канджи</types>
-      </type>
-      <minValue xsi:type="core:UndefinedValue"/>
-      <maxValue xsi:type="core:UndefinedValue"/>
-      <dataHistory>Use</dataHistory>
-      <fullTextSearch>Use</fullTextSearch>
-    </attributes>
-    <lineNumberLength>9</lineNumberLength>
-  </tabularSections>
   <forms uuid="c5f4fefb-003e-4eed-922d-b44d1ac4a8d1">
     <name>ФормаЭлемента</name>
     <synonym>
