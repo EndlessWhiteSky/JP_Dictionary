@@ -40,12 +40,15 @@
   <subsystems>Subsystem.Словарь</subsystems>
   <subsystems>Subsystem.НСИ</subsystems>
   <subsystems>Subsystem.Сервис</subsystems>
-  <commonModules>CommonModule.ПростыеТипыКлиентСервер</commonModules>
   <commonModules>CommonModule.АзбукаВызовСервера</commonModules>
   <commonModules>CommonModule.АзбукаКлиентСервер</commonModules>
   <commonModules>CommonModule.АзбукаПовтИсп</commonModules>
-  <commonModules>CommonModule.РаботаСоСтрокамиКлиентСервер</commonModules>
+  <commonModules>CommonModule.ПростыеТипыКлиентСервер</commonModules>
+  <commonModules>CommonModule.РаботаСДублямиКлиент</commonModules>
+  <commonModules>CommonModule.РаботаСДублямиСервер</commonModules>
   <commonModules>CommonModule.РаботаСоСтрокамиВызовСервера</commonModules>
+  <commonModules>CommonModule.РаботаСоСтрокамиКлиентСервер</commonModules>
+  <commonModules>CommonModule.ОбщегоНазначенияКлиентСервер</commonModules>
   <catalogs>Catalog.Канджи</catalogs>
   <catalogs>Catalog.Моджи</catalogs>
   <catalogs>Catalog.Словарь</catalogs>
