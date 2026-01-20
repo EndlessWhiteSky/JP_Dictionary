@@ -42,7 +42,7 @@
     </extInfo>
   </items>
   <items xsi:type="form:FormGroup">
-    <name>Группа1</name>
+    <name>ГруппаШапка</name>
     <id>63</id>
     <items xsi:type="form:FormField">
       <name>ЮникодПредставление</name>
@@ -96,7 +96,7 @@
       </extInfo>
     </items>
     <items xsi:type="form:FormGroup">
-      <name>Группа2</name>
+      <name>ГруппаЗначениеЮникод</name>
       <id>141</id>
       <items xsi:type="form:FormField">
         <name>ОсновноеЗначение</name>
@@ -198,8 +198,12 @@
       <userVisible>
         <common>true</common>
       </userVisible>
+      <title>
+        <key>ru</key>
+        <value>Группа значение юникод</value>
+      </title>
       <extendedTooltip>
-        <name>Группа2РасширеннаяПодсказка</name>
+        <name>ГруппаЗначениеЮникодРасширеннаяПодсказка</name>
         <id>142</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -223,8 +227,12 @@
     <userVisible>
       <common>true</common>
     </userVisible>
+    <title>
+      <key>ru</key>
+      <value>Группа шапка</value>
+    </title>
     <extendedTooltip>
-      <name>Группа1РасширеннаяПодсказка</name>
+      <name>ГруппаШапкаРасширеннаяПодсказка</name>
       <id>64</id>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
@@ -236,6 +244,39 @@
     <type>UsualGroup</type>
     <extInfo xsi:type="form:UsualGroupExtInfo">
       <group>AlwaysHorizontal</group>
+      <behavior>Auto</behavior>
+      <showLeftMargin>true</showLeftMargin>
+      <united>true</united>
+      <throughAlign>Auto</throughAlign>
+      <currentRowUse>Auto</currentRowUse>
+    </extInfo>
+  </items>
+  <items xsi:type="form:FormGroup">
+    <name>ГруппаДубли</name>
+    <id>143</id>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <title>
+      <key>ru</key>
+      <value>Группа дубли</value>
+    </title>
+    <toolTipRepresentation>None</toolTipRepresentation>
+    <extendedTooltip>
+      <name>ГруппаДублиРасширеннаяПодсказка</name>
+      <id>144</id>
+      <type>Label</type>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </extendedTooltip>
+    <type>UsualGroup</type>
+    <extInfo xsi:type="form:UsualGroupExtInfo">
+      <group>Auto</group>
       <behavior>Auto</behavior>
       <showLeftMargin>true</showLeftMargin>
       <united>true</united>
