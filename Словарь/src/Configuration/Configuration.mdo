@@ -58,7 +58,6 @@
   <enums>Enum.ВидыКаны</enums>
   <enums>Enum.ВидыСлов</enums>
   <enums>Enum.ВидыЧтенийКанджи</enums>
-  <reports>Report.ПоискКанджиПоЧтению</reports>
   <dataProcessors>DataProcessor.ВыгрузкаКанджи</dataProcessors>
   <dataProcessors>DataProcessor.ДозаполнениеМоджи</dataProcessors>
   <dataProcessors>DataProcessor.ЗаполнениеАзбук</dataProcessors>
