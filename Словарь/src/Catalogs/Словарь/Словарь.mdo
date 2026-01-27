@@ -114,6 +114,7 @@
   <choiceMode>BothWays</choiceMode>
   <defaultObjectForm>Catalog.Словарь.Form.ФормаЭлемента</defaultObjectForm>
   <defaultListForm>Catalog.Словарь.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.Словарь.Form.ФормаВыбора</defaultChoiceForm>
   <attributes uuid="0bfe7641-ab93-42ca-ada7-2020a2e518bb">
     <name>ЗаписьНаЯпонском</name>
     <synonym>
@@ -284,6 +285,15 @@
     <synonym>
       <key>ru</key>
       <value>Настройки подсказок</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="682a64a9-31d8-4fc8-a63e-a92b149206a4">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
