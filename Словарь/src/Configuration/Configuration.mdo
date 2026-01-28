@@ -50,6 +50,7 @@
   <commonModules>CommonModule.РаботаСоСтрокамиКлиентСервер</commonModules>
   <commonModules>CommonModule.ОбщегоНазначенияКлиентСервер</commonModules>
   <commonModules>CommonModule.РаботаСДублямиВызовСервера</commonModules>
+  <commonModules>CommonModule.ОбщегоНазначения</commonModules>
   <catalogs>Catalog.Канджи</catalogs>
   <catalogs>Catalog.Моджи</catalogs>
   <catalogs>Catalog.Словарь</catalogs>
