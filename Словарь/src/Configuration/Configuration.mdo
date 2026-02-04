@@ -63,7 +63,6 @@
   <dataProcessors>DataProcessor.ДозаполнениеМоджи</dataProcessors>
   <dataProcessors>DataProcessor.ЗаполнениеАзбук</dataProcessors>
   <dataProcessors>DataProcessor.ЗаполнениеСлогов</dataProcessors>
-  <dataProcessors>DataProcessor.ПоискДублейСловарь</dataProcessors>
   <informationRegisters>InformationRegister.Катакана</informationRegisters>
   <informationRegisters>InformationRegister.Хирагана</informationRegisters>
   <informationRegisters>InformationRegister.СвязанныеСлова</informationRegisters>

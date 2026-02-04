@@ -13,6 +13,5 @@
   <content>DataProcessor.ЗаполнениеАзбук</content>
   <content>DataProcessor.ДозаполнениеМоджи</content>
   <content>DataProcessor.ЗаполнениеСлогов</content>
-  <content>DataProcessor.ПоискДублейСловарь</content>
   <content>DataProcessor.ВыгрузкаКанджи</content>
 </mdclass:Subsystem>
