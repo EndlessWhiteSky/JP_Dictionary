@@ -772,6 +772,8 @@
           <segments>СвязанныеСлова</segments>
         </dataPath>
         <titleLocation>None</titleLocation>
+        <excludedCommands>Copy</excludedCommands>
+        <excludedCommands>CopyToClipboard</excludedCommands>
         <items xsi:type="form:FormField">
           <name>СвязанныеСловаЗначение</name>
           <id>113</id>
@@ -804,10 +806,11 @@
           <headerHorizontalAlign>Left</headerHorizontalAlign>
           <showInFooter>true</showInFooter>
           <extInfo xsi:type="form:InputFieldExtInfo">
-            <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
+            <horizontalStretch>true</horizontalStretch>
             <wrap>true</wrap>
             <extendedEditMultipleValues>true</extendedEditMultipleValues>
+            <openButton>true</openButton>
             <chooseType>true</chooseType>
             <typeDomainEnabled>true</typeDomainEnabled>
             <textEdit>true</textEdit>
@@ -817,6 +820,32 @@
         <autoCommandBar>
           <name>СвязанныеСловаКоманднаяПанель</name>
           <id>100</id>
+          <items xsi:type="form:Button">
+            <name>СвязанныеСловаОткрытьСлово</name>
+            <id>206</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <extendedTooltip>
+              <name>СвязанныеСловаОткрытьСловоРасширеннаяПодсказка</name>
+              <id>207</id>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <commandName>Form.Command.ОткрытьСлово</commandName>
+            <buttonImportance>Normal</buttonImportance>
+            <representation>Auto</representation>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <placementArea>UserCmds</placementArea>
+            <representationInContextMenu>Auto</representationInContextMenu>
+          </items>
           <items xsi:type="form:Button">
             <name>СвязанныеСловаСвязанныеСловаОбновить</name>
             <id>192</id>
@@ -937,6 +966,7 @@
         <autoMaxHeight>true</autoMaxHeight>
         <autoMaxRowsCount>true</autoMaxRowsCount>
         <rowSelectionMode>Row</rowSelectionMode>
+        <rowActionsShowType>DontShow</rowActionsShowType>
         <headerHeight>1</headerHeight>
         <footerHeight>1</footerHeight>
         <horizontalScrollBar>AutoUse</horizontalScrollBar>
@@ -1325,6 +1355,28 @@
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
         <name>Настройки</name>
+      </handler>
+    </action>
+    <representation>TextPicture</representation>
+    <currentRowUse>Auto</currentRowUse>
+    <selectedRowsUse>Auto</selectedRowsUse>
+  </formCommands>
+  <formCommands>
+    <name>ОткрытьСлово</name>
+    <title>
+      <key>ru</key>
+      <value>Показать</value>
+    </title>
+    <id>18</id>
+    <use>
+      <common>true</common>
+    </use>
+    <picture xsi:type="core:PictureRef">
+      <picture>StdPicture.GotoURL</picture>
+    </picture>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ОткрытьСлово</name>
       </handler>
     </action>
     <representation>TextPicture</representation>
