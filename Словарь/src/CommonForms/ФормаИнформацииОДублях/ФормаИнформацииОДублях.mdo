@@ -3,7 +3,7 @@
   <name>ФормаИнформацииОДублях</name>
   <synonym>
     <key>ru</key>
-    <value>Информация о дублях</value>
+    <value>Потенциальные дубли</value>
   </synonym>
   <usePurposes>PersonalComputer</usePurposes>
   <usePurposes>MobileDevice</usePurposes>

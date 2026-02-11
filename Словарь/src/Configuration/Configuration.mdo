@@ -67,5 +67,6 @@
   <informationRegisters>InformationRegister.Катакана</informationRegisters>
   <informationRegisters>InformationRegister.Хирагана</informationRegisters>
   <informationRegisters>InformationRegister.СвязанныеСлова</informationRegisters>
+  <informationRegisters>InformationRegister.ПарыНеДублей</informationRegisters>
   <informationRegisters>InformationRegister.НастройкиПодсказокКанджи</informationRegisters>
 </mdclass:Configuration>

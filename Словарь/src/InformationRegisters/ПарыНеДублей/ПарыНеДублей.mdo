@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8abfd288-422e-45f1-bf4a-ef54b2642e34">
+  <producedTypes>
+    <selectionType typeId="cf33b0fa-ac30-4d3a-a267-b4c6b0466fc5" valueTypeId="76b38810-713d-418c-b96e-510e9c41b7d9"/>
+    <listType typeId="27336dd2-cb85-423f-81c8-64053b8510fa" valueTypeId="d9adbb7a-4f1a-448b-b687-0c3e613b12af"/>
+    <managerType typeId="5089a67a-eb9c-463f-a5dc-d87fd93fa85a" valueTypeId="b981571e-f142-4b12-ba4c-4cb924538bd2"/>
+    <recordSetType typeId="96a765d7-8c75-460b-804d-6f4d8b0cc85e" valueTypeId="275098fe-2780-4319-9bba-e9e8f61a4cda"/>
+    <recordKeyType typeId="70106df6-8d8c-490e-8bf1-f925904476f8" valueTypeId="eb62847b-2cb5-418d-ab56-e203b39bb2d3"/>
+    <recordType typeId="498e8aa2-e02a-43a1-bead-0ae36a4e87a9" valueTypeId="9ed64481-0205-4682-8690-ab1a8f306c7f"/>
+    <recordManagerType typeId="45ae96da-efc5-4dee-b26a-b9f0a3f18f12" valueTypeId="4df2ecb6-f95b-4532-a2fd-d24c23f94ef0"/>
+  </producedTypes>
+  <name>ПарыНеДублей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Пары слов не-дублей</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Пары слов не-дублей</value>
+  </recordPresentation>
+  <dimensions uuid="3d23c5b3-a99f-4feb-84e2-04317257b1ff">
+    <name>Элемент1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Элемент1</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Словарь</types>
+      <types>CatalogRef.Канджи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="b0e2da4a-21da-407e-9d71-69239bade63d">
+    <name>Элемент2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Элемент2</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Словарь</types>
+      <types>CatalogRef.Канджи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>
