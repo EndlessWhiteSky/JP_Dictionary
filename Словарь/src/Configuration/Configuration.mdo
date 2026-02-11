@@ -51,6 +51,7 @@
   <commonModules>CommonModule.ОбщегоНазначенияКлиентСервер</commonModules>
   <commonModules>CommonModule.РаботаСДублямиВызовСервера</commonModules>
   <commonModules>CommonModule.ОбщегоНазначения</commonModules>
+  <commonForms>CommonForm.ФормаИнформацииОДублях</commonForms>
   <catalogs>Catalog.Канджи</catalogs>
   <catalogs>Catalog.Моджи</catalogs>
   <catalogs>Catalog.Словарь</catalogs>

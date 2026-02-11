@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonForm xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b36b81c7-fd6c-477a-b774-5894cbbe278b">
+  <name>ФормаИнформацииОДублях</name>
+  <synonym>
+    <key>ru</key>
+    <value>Информация о дублях</value>
+  </synonym>
+  <usePurposes>PersonalComputer</usePurposes>
+  <usePurposes>MobileDevice</usePurposes>
+</mdclass:CommonForm>
