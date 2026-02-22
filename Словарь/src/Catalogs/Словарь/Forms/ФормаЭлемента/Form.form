@@ -578,6 +578,40 @@
             <textSize>Normal</textSize>
           </extInfo>
         </items>
+        <items xsi:type="form:FormField">
+          <name>СоставЭтоУдвоениеКанджи</name>
+          <id>208</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <dataPath xsi:type="form:DataPath">
+            <segments>Объект.Состав.ЭтоУдвоениеКанджи</segments>
+          </dataPath>
+          <titleLocation>None</titleLocation>
+          <extendedTooltip>
+            <name>СоставЭтоУдвоениеКанджиРасширеннаяПодсказка</name>
+            <id>210</id>
+            <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <contextMenu>
+            <name>СоставЭтоУдвоениеКанджиКонтекстноеМеню</name>
+            <id>209</id>
+            <autoFill>true</autoFill>
+          </contextMenu>
+          <type>CheckBoxField</type>
+          <editMode>Auto</editMode>
+          <showInHeader>true</showInHeader>
+          <headerHorizontalAlign>Left</headerHorizontalAlign>
+          <showInFooter>true</showInFooter>
+          <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
+        </items>
         <autoCommandBar>
           <name>СоставКоманднаяПанель</name>
           <id>37</id>
@@ -1380,6 +1414,15 @@
       </handler>
     </action>
     <representation>TextPicture</representation>
+    <currentRowUse>Auto</currentRowUse>
+    <selectedRowsUse>Auto</selectedRowsUse>
+  </formCommands>
+  <formCommands>
+    <name>Команда1</name>
+    <id>20</id>
+    <use>
+      <common>true</common>
+    </use>
     <currentRowUse>Auto</currentRowUse>
     <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>

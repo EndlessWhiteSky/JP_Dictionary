@@ -715,11 +715,12 @@
           <type>InputField</type>
           <editMode>Auto</editMode>
           <showInHeader>true</showInHeader>
-          <headerHorizontalAlign>Left</headerHorizontalAlign>
           <showInFooter>true</showInFooter>
           <extInfo xsi:type="form:InputFieldExtInfo">
-            <autoMaxWidth>true</autoMaxWidth>
+            <width>40</width>
+            <maxWidth>100</maxWidth>
             <autoMaxHeight>true</autoMaxHeight>
+            <horizontalStretch>true</horizontalStretch>
             <wrap>true</wrap>
             <extendedEditMultipleValues>true</extendedEditMultipleValues>
             <chooseType>true</chooseType>
@@ -823,6 +824,7 @@
           <autoFill>true</autoFill>
         </contextMenu>
         <readOnly>true</readOnly>
+        <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
         <autoMaxRowsCount>true</autoMaxRowsCount>
         <selectionMode>MultiRow</selectionMode>
